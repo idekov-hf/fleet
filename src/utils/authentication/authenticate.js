@@ -1,6 +1,5 @@
 import * as firebase from 'firebase'
 import { Facebook } from 'expo'
-import './firebase-config'
 import keys from './api-keys'
 
 export function emailSignUp(email, password) {
